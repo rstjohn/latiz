@@ -1,0 +1,14 @@
+dist/
+build/
+nbproject/
+target/
+.idea/
+.svn/
+*.class
+*.swp
+*.out
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
