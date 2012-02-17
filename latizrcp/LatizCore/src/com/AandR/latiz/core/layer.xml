@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="com-AandR-latiz-core-actions-NewDocumentAction.instance"/>
+        </folder>
+        <folder name="Latiz">
+            <file name="com-AandR-latiz-core-actions-OpenAction.instance"/>
+            <file name="com-AandR-latiz-core-actions-SaveAction.instance"/>
+            <file name="com-AandR-latiz-core-actions-SaveAsAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="com-AandR-latiz-core-actions-NewDocumentAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-AandR-latiz-core-actions-NewDocumentAction.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="com-AandR-latiz-core-actions-OpenAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Latiz/com-AandR-latiz-core-actions-OpenAction.instance"/>
+                <attr name="position" intvalue="900"/>
+            </file>
+            <file name="com-AandR-latiz-core-actions-SaveAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Latiz/com-AandR-latiz-core-actions-SaveAction.instance"/>
+                <attr name="iconBase" stringvalue="com/AandR/latiz/core/actions/filesave.png"/>
+                <attr name="position" intvalue="1000"/>
+            </file>
+            <file name="com-AandR-latiz-core-actions-SaveAsAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Latiz/com-AandR-latiz-core-actions-SaveAsAction.instance"/>
+                <attr name="position" intvalue="1200"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="com-AandR-latiz-core-actions-NewDocumentAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-AandR-latiz-core-actions-NewDocumentAction.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="com-AandR-latiz-core-actions-OpenAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Latiz/com-AandR-latiz-core-actions-OpenAction.instance"/>
+                <attr name="position" intvalue="1400"/>
+            </file>
+            <file name="com-AandR-latiz-core-actions-SaveAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Latiz/com-AandR-latiz-core-actions-SaveAction.instance"/>
+                <attr name="position" intvalue="1500"/>
+            </file>
+            <file name="com-AandR-latiz-core-actions-SaveAsAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Latiz/com-AandR-latiz-core-actions-SaveAsAction.instance"/>
+                <attr name="position" intvalue="1650"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

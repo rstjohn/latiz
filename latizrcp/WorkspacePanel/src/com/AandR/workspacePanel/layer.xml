@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-AandR-workspacePanel-WorkspacePanelAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.AandR.workspacePanel.Bundle"/>
+                <attr name="component" methodvalue="com.AandR.workspacePanel.WorkspacePanelTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.AandR.workspacePanel.Bundle#CTL_WorkspacePanelAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Perspectives">
+        <folder name="Palette">
+            <file name="WorkspacePanelTopComponent"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Palette">
+            <file name="WorkspacePanelAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-AandR-workspacePanel-WorkspacePanelAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="WorkspacePanelTopComponent.settings" url="WorkspacePanelTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="properties">
+                <file name="WorkspacePanelTopComponent.wstcref" url="WorkspacePanelTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

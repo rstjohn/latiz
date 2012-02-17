@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Plugins">
+            <file name="com-AandR-findPlugin-FindPluginAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.AandR.findPlugin.Bundle"/>
+                <attr name="delegate" newvalue="com.AandR.findPlugin.FindPluginAction"/>
+                <attr name="displayName" bundlevalue="com.AandR.findPlugin.Bundle#CTL_FindPluginAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Palette">
+            <folder name="Plugins">
+                <file name="com-AandR-findPlugin-FindPluginAction.shadow">
+                    <attr name="originalFile" stringvalue="Actions/Plugins/com-AandR-findPlugin-FindPluginAction.instance"/>
+                    <attr name="position" intvalue="100"/>
+                </file>
+            </folder>
+        </folder>
+        </folder>
+</filesystem>

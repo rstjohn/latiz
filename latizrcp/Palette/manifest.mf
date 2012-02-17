@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.AandR.palette
+OpenIDE-Module-Layer: com/AandR/palette/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/AandR/palette/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.2.3
+

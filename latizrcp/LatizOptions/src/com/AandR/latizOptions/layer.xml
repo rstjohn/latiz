@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <attr name="OptionsDialog\Advanced.instance\position" intvalue="600"/>
+    <attr name="OptionsDialog\Advanced\position" intvalue="100"/>
+    <attr name="OptionsDialog\General.instance\position" intvalue="300"/>
+    <attr name="OptionsDialog\Keymaps.instance\position" intvalue="400"/>
+    <folder name="OptionsDialog">
+        <folder name="LatizOptionsCategory">
+            <attr name="position" intvalue="200"/>
+            <file name="com-AandR-latizOptions-palette-LatizPaletteOptionsAdvancedOption.instance">
+                <attr name="position" intvalue="100"/>
+                <attr name="controller" newvalue="com.AandR.latizOptions.palette.LatizPaletteOptionsPanelController"/>
+                <attr name="displayName" bundlevalue="com.AandR.latizOptions.palette.Bundle#AdvancedOption_DisplayName_LatizPaletteOptions"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory"/>
+                <attr name="keywords" bundlevalue="com.AandR.latizOptions.palette.Bundle#AdvancedOption_Keywords_LatizPaletteOptions"/>
+                <attr name="keywordsCategory" stringvalue="LatizOptionsCategory/null"/>
+                <attr name="toolTip" bundlevalue="com.AandR.latizOptions.palette.Bundle#AdvancedOption_Tooltip_LatizPaletteOptions"/>
+            </file>
+            <file name="com-AandR-latizOptions-pluginWizard-PluginWizardAdvancedOption.instance">
+                <attr name="controller" newvalue="com.AandR.latizOptions.pluginWizard.PluginWizardOptionsPanelController"/>
+                <attr name="displayName" bundlevalue="com.AandR.latizOptions.pluginWizard.Bundle#AdvancedOption_DisplayName_PluginWizard"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory"/>
+                <attr name="keywords" bundlevalue="com.AandR.latizOptions.pluginWizard.Bundle#AdvancedOption_Keywords_PluginWizard"/>
+                <attr name="keywordsCategory" stringvalue="LatizOptionsCategory/null"/>
+                <attr name="toolTip" bundlevalue="com.AandR.latizOptions.pluginWizard.Bundle#AdvancedOption_Tooltip_PluginWizard"/>
+            </file>
+            <file name="com-AandR-latizOptions-recordedOutputs-RecordedOutputsAdvancedOption.instance">
+                <attr name="position" intvalue="200"/>
+                <attr name="controller" newvalue="com.AandR.latizOptions.recordedOutputs.RecordedOutputsOptionsPanelController"/>
+                <attr name="displayName" bundlevalue="com.AandR.latizOptions.recordedOutputs.Bundle#AdvancedOption_DisplayName_RecordedOutputs"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory"/>
+                <attr name="keywords" bundlevalue="com.AandR.latizOptions.recordedOutputs.Bundle#AdvancedOption_Keywords_RecordedOutputs"/>
+                <attr name="keywordsCategory" stringvalue="LatizOptionsCategory/null"/>
+                <attr name="toolTip" bundlevalue="com.AandR.latizOptions.recordedOutputs.Bundle#AdvancedOption_Tooltip_RecordedOutputs"/>
+            </file>
+            <file name="com-AandR-latizOptions-connectionPanel-ConnectionPanelOptionsAdvancedOption.instance">
+                <attr name="position" intvalue="300"/>
+                <attr name="controller" newvalue="com.AandR.latizOptions.connectionPanel.ConnectionPanelOptionsController"/>
+                <attr name="displayName" bundlevalue="com.AandR.latizOptions.connectionPanel.Bundle#AdvancedOption_DisplayName_ConnectionPanelOptions"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory"/>
+                <attr name="keywords" bundlevalue="com.AandR.latizOptions.connectionPanel.Bundle#AdvancedOption_Keywords_ConnectionPanelOptions"/>
+                <attr name="keywordsCategory" stringvalue="LatizOptionsCategory/null"/>
+                <attr name="toolTip" bundlevalue="com.AandR.latizOptions.connectionPanel.Bundle#AdvancedOption_Tooltip_ConnectionPanelOptions"/>
+            </file>
+        </folder>
+        <file name="LatizOptionsCategory.instance">
+            <attr name="advancedOptionsFolder" stringvalue="OptionsDialog/LatizOptionsCategory"/>
+            <attr name="categoryName" bundlevalue="com.AandR.latizOptions.Bundle#OptionsCategory_Name_Latiz"/>
+            <attr name="iconBase" stringvalue="com/AandR/latizOptions/latizIcon32.png"/>
+            <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory"/>
+            <attr name="keywords" bundlevalue="com.AandR.latizOptions.Bundle#OptionsCategory_Keywords_Latiz"/>
+            <attr name="keywordsCategory" stringvalue="Latiz"/>
+            <attr name="position" intvalue="250"/>
+            <attr name="title" bundlevalue="com.AandR.latizOptions.Bundle#OptionsCategory_Title_Latiz"/>
+        </file>
+    </folder>
+</filesystem>

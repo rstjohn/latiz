@@ -1,0 +1,58 @@
+$PACKAGE$
+
+import javax.swing.JComponent;
+
+$IMPORTS$
+import com.AandR.gui.dropSupport.DropListener;
+
+import com.AandR.latiz.core.Event;
+
+import com.AandR.latiz.dev.AbstractPluginAdapter;
+
+import com.AandR.latiz.resources.Resources;
+
+/**
+ * @author $USER$
+ * @version $DATE$
+ * 
+ * $COMMENTS$
+ */
+public class $PLUGIN$ extends AbstractPluginAdapter {
+
+
+  public $PLUGIN$() {
+    init("$PLUGIN$", Resources.createIcon("defaultPlugin.png"));
+  }
+
+
+$INITIALIZE_INPUTS$
+
+
+$INITIALIZE_OUTPUTS$
+
+
+  protected boolean acknowledgeModifiedInputsNotification(String inputKey) {
+     return true;
+  }
+
+    
+  public boolean acknowledgeOutputRequestNotification(String outputKey) {
+     return true;
+  }    
+
+
+  public void scheduleInitialEvent() {
+  }
+  
+  
+  protected boolean acknowledgeEventNotification(Event event) {
+     return true;
+  }
+  
+  
+  public JComponent createParametersPanel() {
+    return null;
+  }
+  
+$OPTIONALS$
+}

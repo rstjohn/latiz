@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="DataWriter">
+        <file name="com-AandR-defaultHdf5-restricted-DefaultHDF5DataWriter.instance">
+            <!--<attr name="instanceClass" stringvalue="com.AandR.defaultHdf5.DefaultHDF5DataWriter"/>-->
+            <attr name="instanceOf" stringvalue="com.AandR.palette.dataWriter.AbstractDataWriter"/>
+            <attr name="id" stringvalue="Default HDF5 Data Writer"/>
+        </file>
+    </folder>
+</filesystem>

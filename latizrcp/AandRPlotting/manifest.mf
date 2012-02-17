@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: com.AandR.beans.plotting
+OpenIDE-Module-Localizing-Bundle: com/AandR/beans/plotting/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.5
+

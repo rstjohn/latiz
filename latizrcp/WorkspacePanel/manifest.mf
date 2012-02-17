@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.AandR.workspacePanel
+OpenIDE-Module-Layer: com/AandR/workspacePanel/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/AandR/workspacePanel/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.3
+

@@ -1,0 +1,1 @@
+$JAVA_COMMAND$ -Djava.awt.headless=true -Djava.library.path=./userLib -jar latiz.jar "$WORKSPACE_FILE$"

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.latizTech.fileExplorer
+OpenIDE-Module-Install: com/latizTech/fileExplorer/Installer.class
+OpenIDE-Module-Layer: com/latizTech/fileExplorer/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/latizTech/fileExplorer/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.2
+

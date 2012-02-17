@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.latizTech.simplePlugin
+OpenIDE-Module-Layer: com/latizTech/simplePlugin/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/latizTech/simplePlugin/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

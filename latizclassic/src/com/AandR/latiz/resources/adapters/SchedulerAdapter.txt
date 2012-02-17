@@ -1,0 +1,48 @@
+$PACKAGE$
+
+import javax.swing.JComponent;
+
+$IMPORTS$
+import com.AandR.gui.dropSupport.DropListener;
+
+import com.AandR.latiz.core.Event;
+
+import com.AandR.latiz.dev.EventSchedulerAdapter;
+
+import com.AandR.latiz.resources.Resources;
+
+/**
+ * @author $USER$
+ * @version $DATE$
+ * 
+ * $COMMENTS$
+ */
+public class $PLUGIN$ extends EventSchedulerAdapter {
+
+
+  public $PLUGIN$() {
+    init("$PLUGIN$", Resources.createIcon("defaultPlugin.png"));
+  }
+
+
+$INITIALIZE_INPUTS$
+
+
+$INITIALIZE_OUTPUTS$
+
+
+  public void scheduleInitialEvent() {
+  }
+  
+  
+  protected boolean acknowledgeEventNotification(Event event) {
+    return true;
+  }
+  
+  
+  public JComponent createParametersPanel() {
+    return null;
+  }
+  
+$OPTIONALS$
+}

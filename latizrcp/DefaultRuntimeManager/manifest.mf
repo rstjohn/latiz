@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.AandR.defaultRuntimeManager
+OpenIDE-Module-Layer: com/AandR/defaultRuntimeManager/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/AandR/defaultRuntimeManager/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.4
+

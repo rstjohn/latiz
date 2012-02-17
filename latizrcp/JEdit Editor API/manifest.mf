@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.latizTech.jedit
+OpenIDE-Module-Localizing-Bundle: com/latizTech/jedit/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

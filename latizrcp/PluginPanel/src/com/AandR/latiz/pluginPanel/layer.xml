@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-AandR-latiz-pluginPanel-PluginPanelAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.AandR.latiz.pluginPanel.Bundle"/>
+                <attr name="component" methodvalue="com.AandR.latiz.pluginPanel.PluginPanelTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.AandR.latiz.pluginPanel.Bundle#CTL_PluginPanelAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Palette">
+            <file name="PluginPanelAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-AandR-latiz-pluginPanel-PluginPanelAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="PluginPanelTopComponent.settings" url="PluginPanelTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="properties">
+                <file name="PluginPanelTopComponent.wstcref" url="PluginPanelTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Perspectives">
+        <folder name="Palette">
+            <file name="PluginPanelTopComponent"/>
+        </folder>
+    </folder>
+</filesystem>

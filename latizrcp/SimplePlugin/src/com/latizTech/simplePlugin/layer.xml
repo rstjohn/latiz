@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="plugins">
+        <file name="SimplePlugin.instance">
+            <attr name="instanceClass" stringvalue="com.latizTech.simplePlugin.SimplePlugin"/>
+            <attr name="instanceOf" stringvalue="com.AandR.palette.plugin.AbstractPlugin"/>
+            <!--<attr name="iconPath" stringvalue="com/latizTech/simplePlugin/icon.png"/>-->
+            <attr name="author" stringvalue="Dr. Richard St. John"/>
+            <attr name="date" stringvalue="Thu Apr 09 14:43:41 EDT 2009"/>
+        </file>
+    </folder>
+</filesystem>

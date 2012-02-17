@@ -1,0 +1,42 @@
+$PACKAGE$
+
+import javax.swing.JComponent;
+
+$IMPORTS$
+import com.AandR.gui.dropSupport.DropListener;
+
+import com.AandR.latiz.dev.DiligentAbstractPluginAdapter;
+
+import com.AandR.latiz.resources.Resources;
+
+/**
+ * @author $USER$
+ * @version $DATE$
+ * 
+ * $COMMENTS$
+ */
+public class $PLUGIN$ extends DiligentAbstractPluginAdapter {
+
+
+  public $PLUGIN$() {
+    init("$PLUGIN$", Resources.createIcon("defaultPlugin.png"));
+  }
+
+
+$INITIALIZE_INPUTS$
+
+
+$INITIALIZE_OUTPUTS$
+
+
+  protected boolean acknowledgeModifiedInputsNotification(String inputKey) {
+     return true;
+  }
+    
+  
+  public JComponent createParametersPanel() {
+    return null;
+  }
+  
+$OPTIONALS$
+}

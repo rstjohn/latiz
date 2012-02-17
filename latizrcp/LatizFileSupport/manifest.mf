@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.AandR.latizFileSupport
+OpenIDE-Module-Layer: com/AandR/latizFileSupport/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/AandR/latizFileSupport/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.3
+

@@ -1,0 +1,48 @@
+$PACKAGE$
+
+import javax.swing.JComponent;
+
+$IMPORTS$
+import com.AandR.gui.dropSupport.DropListener;
+
+import com.AandR.latiz.dev.ProcrastinatorAbstractPluginAdapter;
+
+import com.AandR.latiz.resources.Resources;
+
+/**
+ * @author $USER$
+ * @version $DATE$
+ * 
+ * $COMMENTS$
+ */
+public class $PLUGIN$ extends ProcrastinatorAbstractPluginAdapter {
+
+
+  public $PLUGIN$() {
+    init("$PLUGIN$", Resources.createIcon("defaultPlugin.png"));
+  }
+
+
+$INITIALIZE_INPUTS$
+
+
+$INITIALIZE_OUTPUTS$
+
+
+  public boolean acknowledgeOutputRequestNotification(String outputKey) {
+    return true;
+  }    
+
+
+  protected boolean acknowledgeModifiedInputsNotification(String inputKey) {
+    super.warnAllOutputObservers();
+    return true;
+  }
+
+  
+  public JComponent createParametersPanel() {
+    return null;
+  }
+  
+$OPTIONALS$
+}
