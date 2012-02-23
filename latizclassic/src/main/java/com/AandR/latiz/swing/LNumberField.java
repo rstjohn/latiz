@@ -125,7 +125,7 @@ public class LNumberField extends JTextField {
         myParser.initSymTab(); // clear the contents of the symbol table
         myParser.addStandardFunctions();
         myParser.addStandardConstants();
-        myParser.setAllowAssignment(true);
+//        myParser.setAllowAssignment(true);
         myParser.setImplicitMul(true);
         myParser.setTraverse(false);
 
@@ -140,7 +140,7 @@ public class LNumberField extends JTextField {
                 } else {
                     value = new Double(globals.get(key).getValue());
                 }
-                myParser.addVariable(key, value);
+                myParser.addVariable(key, value.doubleValue());
             }
         }
         myParser.parseExpression(s.substring(1));

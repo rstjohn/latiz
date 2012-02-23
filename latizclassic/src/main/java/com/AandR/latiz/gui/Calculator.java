@@ -45,7 +45,7 @@ public class Calculator extends JDialog implements CaretListener, ActionListener
         myParser.addStandardFunctions();
         myParser.addStandardConstants();
         myParser.addComplex(); // among other things adds i to the symbol table
-        myParser.setAllowAssignment(true);
+//        myParser.setAllowAssignment(true);
         myParser.setImplicitMul(true);
         myParser.setTraverse(false);
         setContentPane(createContentPane());
